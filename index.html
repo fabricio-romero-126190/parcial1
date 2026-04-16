@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oficina</title>
+    <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <body>
-    <h1>hola</h1>
+
+<div class="contenedor">
+
+    <h2 class="titulo">OFICINA</h2>
+
+    <div class="fila">
+        <label>Oficina</label>
+        <input type="text" value="1" >
+        <input type="text" value="100 DIRECCION INLASA" >
+
+        <div class="izquierda">
+            <button>Nuevo</button>
+            <button>Modificar</button>
+            <button>Activar</button>
+            <button>Inactivar</button>
+        </div>
+    </div>
+
+    <div class="fila">
+        <label>Observación</label>
+        <label for="text" class="descri"></label>
+        <input type="text">
+    </div>
+
+    <table>
+            <tr>
+                <th>Cod.</th>
+                <th>Responsable</th>
+                <th>Cargo</th>
+                <th>CI</th>
+                <th>Expedido</th>
+                <th>Estado</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>DRA. GLADYS QUIROGA</td>
+                <td>DIRECTORA</td>
+                <td></td>
+                <td></td>
+                <td>ACTIVO</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DR. WALTER AGREDA COCA</td>
+                <td>DIRECTOR GENERAL EJECUTIVO</td>
+                <td></td>
+                <td></td>
+                <td>ACTIVO</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="inferior">
+        <button>Activar</button>
+        <button>Inactivar</button>
+        <button>Nuevo</button>
+        <button>Modificar</button>
+        <button class="guardar">Guardar</button>
+        <button>Deshacer</button>
+        <button>Salir</button>
+    </div>
+
+</div>
+<a href="login.html">pagina 9</a>
+
 </body>
 </html>

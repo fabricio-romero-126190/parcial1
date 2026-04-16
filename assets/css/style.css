@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.titulo {
+    background: #2e5f8a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.izquierda{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    background: #2c5d87;
+    color: white;
+    padding: 8px 12px;
+}
+
+.guardar {
+    background: rgb(84, 240, 84);
+}
+
+th {
+    background: #2c5d87;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.descri{
+    width: 60px;
+    height: 80px;
+    padding: 50px;
+}
